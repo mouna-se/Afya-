@@ -1,4 +1,4 @@
-package com.example.afya.data.model
+package com.example.afya.model
 
 import java.util.Date
 
@@ -15,7 +15,7 @@ data class Post(
     val expiredAt: Date
 )
 
-//enum class PostType {
-//    OFFER,
-//    REQUEST
-//}
+enum class PostType {
+    OFFER,
+    REQUEST
+}
