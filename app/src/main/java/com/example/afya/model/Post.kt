@@ -9,13 +9,15 @@ data class Post(
     val drugName: String,
     val image: String?,
     val location: String,
-    val postType: PostType,
+    val postType: com.example.afya.model.PostType,
     val createdAt: Date,
     val updatedAt: Date,
     val expiredAt: Date
-)
+) {
+
 
 enum class PostType {
     OFFER,
     REQUEST
+}
 }
