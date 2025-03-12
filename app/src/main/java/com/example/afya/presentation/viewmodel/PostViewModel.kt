@@ -3,7 +3,7 @@ package com.example.afya.presentation.viewmodel
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.afya.data.model.Post
-import com.example.afya.data.repository.PostRepositoryImpl
+import com.example.afya.repository.PostRepositoryImpl
 import com.example.afya.domain.usecase.GetPostsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.delay
