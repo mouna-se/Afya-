@@ -16,7 +16,7 @@ object PostRepository {
             postType = PostType.OFFER,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 86400000)
+
         ),
         Post(
             id = "2",
@@ -28,7 +28,7 @@ object PostRepository {
             postType = PostType.REQUEST,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 172800000)
+
         ),
         Post(
             id = "3",
@@ -40,7 +40,7 @@ object PostRepository {
             postType = PostType.OFFER,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 86400000)
+
         ),
         Post(
             id = "4",
@@ -52,7 +52,7 @@ object PostRepository {
             postType = PostType.REQUEST,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 172800000)
+
         ),
         Post(
             id = "5",
@@ -64,7 +64,7 @@ object PostRepository {
             postType = PostType.OFFER,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 86400000)
+
         ),
         Post(
             id = "6",
@@ -76,7 +76,7 @@ object PostRepository {
             postType = PostType.REQUEST,
             createdAt = Date(),
             updatedAt = Date(),
-            expiredAt = Date(System.currentTimeMillis() + 172800000)
+
         )
     )
 

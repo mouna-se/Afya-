@@ -1,4 +1,4 @@
-package com.example.afya.model
+package com.example.afya.data.model
 
 import java.util.Date
 
