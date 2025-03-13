@@ -16,8 +16,15 @@ data class Post(
 ) {
 
 
+
 enum class PostType {
     OFFER,
     REQUEST
 }
 }
+
+//enum class PostType {
+//    OFFER,
+//    REQUEST
+//}
+
