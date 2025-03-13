@@ -1,3 +1,4 @@
+
 package com.example.afya.presentation
 
 import androidx.lifecycle.ViewModel
@@ -57,3 +58,4 @@ class AddPostViewModel @Inject constructor(
         }
     }
 }
+

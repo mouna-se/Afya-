@@ -1,3 +1,4 @@
+
 package com.example.afya.ui.screens
 
 import android.net.Uri
@@ -250,3 +251,4 @@ fun AddPostScreen(
         }
     }
 }
+
